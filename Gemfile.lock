@@ -13,7 +13,7 @@ GEM
     erubi (1.10.0)
     method_source (0.9.0)
     multi_json (1.15.0)
-    mustermann (1.1.1)
+    mustermann (3.0.0)
       ruby2_keywords (~> 0.0.1)
     pry (0.11.1)
       coderay (~> 1.1.0)
@@ -21,22 +21,22 @@ GEM
     pry-byebug (3.5.0)
       byebug (~> 9.1)
       pry (~> 0.10)
-    rack (2.2.3)
-    rack-protection (2.2.0)
+    rack (2.2.4)
+    rack-protection (3.0.4)
       rack
     ruby2_keywords (0.0.5)
-    sinatra (2.2.0)
-      mustermann (~> 1.0)
-      rack (~> 2.2)
-      rack-protection (= 2.2.0)
+    sinatra (3.0.4)
+      mustermann (~> 3.0)
+      rack (~> 2.2, >= 2.2.4)
+      rack-protection (= 3.0.4)
       tilt (~> 2.0)
-    sinatra-contrib (2.2.0)
+    sinatra-contrib (3.0.4)
       multi_json
-      mustermann (~> 1.0)
-      rack-protection (= 2.2.0)
-      sinatra (= 2.2.0)
+      mustermann (~> 3.0)
+      rack-protection (= 3.0.4)
+      sinatra (= 3.0.4)
       tilt (~> 2.0)
-    tilt (2.0.10)
+    tilt (2.0.11)
 
 PLATFORMS
   ruby
@@ -45,8 +45,8 @@ DEPENDENCIES
   better_errors
   binding_of_caller
   pry-byebug
-  sinatra (= 2.2.0)
-  sinatra-contrib (= 2.2.0)
+  sinatra (= 3.0.4)
+  sinatra-contrib (= 3.0.4)
 
 BUNDLED WITH
    1.15.4
